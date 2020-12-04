@@ -1,0 +1,15 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.title {
+  background-color: red;
+  color: #fff
+}
+
+.title:hover {
+    opacity: 0.2;
+  }
+
+

@@ -1,13 +1,1 @@
-* {
-    margin: 0;
-    padding: 0;
-}
-
-.title {
-  background-color: black;
-  color: #fff;
-  &:hover {
-    opacity: 0.2;
-  }
-}
-
+@import url("reset.css");

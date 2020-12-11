@@ -1,1 +1,50 @@
 @import url("reset.css");
+
+.content-item {
+  background-color: #39c;
+  overflow: hidden;
+  display: flex;
+  color: #fff;
+}
+
+.content-item-title {
+  margin: 24px;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.content-item-text {
+  margin: 24px;
+  line-height: 1.8;
+}
+
+.content-item-img {
+  font-weight: bold;
+}
+
+.btn {
+  position: relative;
+  margin: 16px;
+  & a {
+    padding: 8px 0;
+    border: 6px solid #555555;
+    display: block;
+    background-color: #fff;
+    color: #000;
+    text-decoration: none;
+    text-align: center;
+    &:after {
+      position: absolute;
+      bottom: -6px;
+      left: 0;
+      content: '';
+      display: block;
+      width: 100%;
+      border: 6px solid #555;
+      border-left: 6px solid transparent;
+      border-right: 6px solid transparent;
+      border-bottom: 0;
+      box-sizing: border-box;
+    }
+  }
+}

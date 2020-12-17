@@ -88,3 +88,92 @@
   width: 100%;
   height: 300px;
 }
+
+.renewal-campaign-section-item-title{
+  color: #fff;
+  text-align: center;
+  font-size: 40px;
+  margin-top:24px;
+  margin-bottom: 24px;
+}
+
+.renewal-campaign-section-item-content{
+  color: #fff;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 24px;
+  margin-bottom:80px;
+}
+
+.renewal-center{
+  background-color: #D7292A;
+}
+
+.top-information {
+  background-color: #5BCAD3;
+  display: flex;
+  align-items: flex-start;
+  color: #fff;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-top:68px;
+  position: relative;
+}
+
+iframe{
+  width: 100%;
+  margin-right: auto;
+}
+
+.top-information-store-name{
+  font-size: 40px;
+  width: 100%;
+  margin:44px;
+  text-align: center;
+}
+
+.top-information-address{
+  font-size: 20px;
+  line-height: 2;
+  position: absolute;
+  left: 180px;
+  top:140px;
+}
+
+.info-btn{
+  position: absolute;
+  bottom: 80px;
+  left:220px;
+}
+
+footer{
+  background-color: #3F969D;
+  margin:68px 100px;
+}
+
+.footer-logo-img{
+  width: 8%;
+  margin-top:20px;
+}
+
+.footer-logo{
+  text-align: center;
+}
+
+.footer-nav-menu{
+  list-style: none;
+  text-align: center;
+  font-size: 0;
+}
+
+.footer-nav-menu-item{
+  display: inline-block;
+  font-size: 16px;
+  margin:20px;
+}
+
+.footer-nav-menu-item a{
+  color: #fff;
+  text-decoration: none;
+}

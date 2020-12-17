@@ -1,5 +1,40 @@
 @import url("reset.css");
 
+.site-title{
+  display: none;
+}
+
+.nav-menu{
+  display: flex;
+  align-items: flex-start;
+  margin-right: auto;
+  margin-left: auto;
+  background-color: #3F969D;
+}
+
+.nav-menu-item{
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 50px;
+}
+
+.nav-menu-logo{
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top:20px;
+}
+
+.nav-menu-item a{
+  color:#fff;
+  text-decoration: none;
+}
+
+.nav-logo{
+  width: 25%;
+}
+
 .content-item {
   background-color: #5BCAD3;
   overflow: hidden;
@@ -176,4 +211,26 @@ footer{
 .footer-nav-menu-item a{
   color: #fff;
   text-decoration: none;
+  font-size: 16px;
+}
+
+.footer-sns{
+  list-style: none;
+  text-align: center;
+  font-size: 0;
+}
+
+.footer-sns-item{
+  display: inline-block;
+}
+
+.footer-sns-icon{
+  width: 20%;
+}
+
+.copy{
+  color: #fff;
+  font-size: 12px;
+  text-align: center;
+  padding: 20px;
 }

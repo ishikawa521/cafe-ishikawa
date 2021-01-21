@@ -234,3 +234,86 @@ footer{
   text-align: center;
   padding: 20px;
 }
+
+.page-title{
+  background-color:#5CCAD3;
+  margin:0 100px;
+  text-align: center;
+  color: #fff;
+  font-size: 80px;
+  padding-bottom:20px ;
+  padding-top:40px ;
+  padding-right:60px ;
+}
+
+.menu-section{
+  background-color: #FFB705;
+  margin: 68px 100px;
+  color: #fff;
+}
+
+.food{
+  background-color: #FF084C;
+}
+
+.sidebar{
+  display: flex;
+  margin:0 100px;
+}
+
+.drink-sidebar{
+  background-color: #E8BF07;
+  color: #fff;
+  text-align: center;
+  width: 50%;
+}
+
+.soda{
+  background-color: #E89207;
+}
+
+.drink-sidebar-title{
+  font-size: 36px;
+  padding: 20px;
+}
+
+.drink-sidebar-menu-name{
+  font-size:44px;
+  padding: 20px;
+}
+
+.drink-sidebar-content{
+  width: 50%;
+  margin: auto;
+}
+
+.drink-sidebar-img{
+  padding: 20px;
+}
+
+.menu-title{
+  text-align: center;
+  font-size: 80px;
+  margin-right: 60px;
+  padding-top:20px;
+}
+
+.menu-list{
+  margin:auto;
+}
+
+.cake-list{
+  text-align: center;
+}
+
+.cake-list-img{
+  text-align: center;
+  width: 87%;
+}
+
+.cake-list-item{
+  font-size: 20px;
+  margin-top:12px;
+  margin-left:1100px;
+  color: #FF084C;
+}

@@ -302,6 +302,38 @@ footer{
   margin:auto;
 }
 
+.menu-flex{
+  display: flex;
+  padding-bottom: 50px;
+}
+
+.menu-list-item-name{
+  font-size:20px;
+  padding-top:20px ;
+  padding-bottom: 30px;
+}
+
+.menu-list-item-price{
+  font-size: 16px;
+  padding-left: 20px;
+}
+
+.soda-tea{
+  position: relative;
+}
+
+.soda-tea-name{
+  padding:80px 0px;
+}
+
+.menu-list-item-taste{
+position: absolite;
+}
+
+.menu-list-item-taste-label{
+  margin: 20px 0;
+}
+
 .cake-list{
   text-align: center;
 }
@@ -316,4 +348,76 @@ footer{
   margin-top:12px;
   margin-left:1100px;
   color: #FF084C;
+}
+
+.about{
+  background-color: #3FE09D;
+}
+
+.company-detail{
+  background-color: #39F788;
+  margin:100px;
+  position: relative;
+}
+
+.company-detail-title{
+  color:#fff;
+  font-size: 40px;
+  padding-top:40px;
+  padding-left: 40px;
+}
+
+.company-detail-list-item-title{
+  float: left;
+  padding:12px;
+}
+
+.company-flex{
+  display: flex;
+  padding-bottom: 80px;
+}
+
+.company-detail-list{
+  color: #fff;
+  margin:40px;
+}
+
+.company-detail-list-item{
+  margin-left:80px ;
+  padding:12px;
+}
+
+.sodakun{
+  position: absolute;
+  right: 0px;
+  bottom: 0px;
+}
+
+.info{
+  background-color: #D98B86;
+}
+
+.promotion-section{
+  background-color: #DBC73F;
+  margin:100px;
+  text-align: center;
+  color: #fff;
+}
+
+.promotion-section-title{
+  font-size: 40px;
+  padding:28px;
+}
+
+.promo{
+  background-color: #DBC73F;
+}
+
+.promo-text{
+  margin:0px;
+  margin-left:230px;
+}
+
+.icon{
+  width: 150px;
 }
